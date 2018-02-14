@@ -1,0 +1,49 @@
+.droppable{
+    position: relative;
+    width: 420px;
+    height: 420px;
+    margin: auto;
+    top: 26%;
+
+}
+
+.galo_O, .galo_X{
+    width: 120px;
+    height: 120px;
+    top: 45%;
+
+
+}
+
+.galo_O{
+    margin-left: 2em;
+    float: left;
+    position: absolute;
+}
+
+.galo_X{
+    margin-right: 2em;
+    float: right;
+    position: absolute;
+    right: 0%
+
+
+}
+
+.bt{
+    position: relative;
+    width: 330px;
+    height: 100px;
+    margin: auto;
+    top: 21%;
+    text-align: center;
+}
+
+.btclick{
+    display: block;
+    border:solid 1.1px #CCC;
+    border-radius: 10px;
+    width: 321px;
+    height: 96px;
+    position: absolute;
+}
